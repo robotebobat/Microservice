@@ -11,4 +11,11 @@ public class BasicEntity {
     public void setId(long id) {
         this.id = id;
     }
+
+    public BasicEntity() {
+    }
+
+    public BasicEntity(long id) {
+        this.id = id;
+    }
 }
