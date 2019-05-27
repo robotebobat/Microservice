@@ -3,11 +3,10 @@ package to.go.microservice;
 public class Person extends BasicEntity{
     
     public String name;
-<<<<<<< HEAD
-        
+
     public Person(String name) {
         this.name = name;
-=======
+    }
 
     public String surname;
 
@@ -26,5 +25,4 @@ public class Person extends BasicEntity{
     public void setSurname(String surname) {
         this.surname = surname;
     }
->>>>>>> ----------commit--------
 }
